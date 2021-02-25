@@ -19,7 +19,7 @@ TRACKS = TRACKS.map((i) => {
   return {
     author: faker.name.firstName('female'),
     title: faker.name.title(),
-    url: '',
+    url: i,
   };
 });
 
